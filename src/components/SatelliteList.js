@@ -14,7 +14,6 @@ class SatelliteList extends Component {
     onChange = e => {
         const { dataInfo, checked } = e.target;
         console.log(e.target)
-        console.log(dataInfo)
         const { selected } = this.state;
 
         const list = this.addOrRemove(dataInfo, checked, selected);
@@ -40,6 +39,7 @@ class SatelliteList extends Component {
     }
 
     onShowSatMap = () =>{
+        console.log("track");
         this.props.onShowMap(this.state.selected);
     }
 

@@ -3,10 +3,7 @@
 @import "./styles/Header.css";
 @import "./styles/Footer.css";
 @import "./styles/Main.css";
-@import "./styles/SatelliteList.css";
-@import "./styles/SatSetting.css";
 @import "./styles/WorldMap.css";
-
 
 body {
   margin: 0;
